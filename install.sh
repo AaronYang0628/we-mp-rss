@@ -63,7 +63,7 @@ echo "export PLAYWRIGHT_BROWSERS_PATH=${PLAYWRIGHT_BROWSERS_PATH}
 export TZ=Asia/Shanghai
 export BROWSER_TYPE=${BROWSER_TYPE}">/app/environment.sh
 echo "环境变量已设置"
-
+chmod +x /app/environment.sh
 cat /app/environment.sh
 source /app/environment.sh
 
